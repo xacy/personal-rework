@@ -1,6 +1,5 @@
 <template>
     <div class="gallery">
-        Gallery
         <app-work v-for="work in works" :work="work"></app-work>
     </div>
 </template>
@@ -43,9 +42,18 @@
 </script>
 
 <style>
-    .gallery{
-        widt:100%;
-        display: flex;
-        flex-wrap: wrap;
+    .column .gallery{
+        width:100% !important;
     }
+    #section3 .fp-tableCell {
+        vertical-align: middle !important;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+    }
+
 </style>

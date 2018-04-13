@@ -7,6 +7,7 @@
             <li data-menuanchor="skills"><a href="#skills">Skills</a></li>
             <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
         </ul>
+        <!--
         <ul class="actions">
             <li>
                 <a class="actions-button" href="https://www.linkedin.com/pub/jacinto-melero-g%C3%B3mez/31/836/982"
@@ -25,13 +26,19 @@
             <li>
                 <a class="actions-button" href="#" rel="noopener" @click="toggleNavigation">ENG</a>
             </li>
-        </ul>
+        </ul>-->
         <full-page :options="options" @after-load="afterLoad" id="fullpage">
             <div class="section" id="section1">
 
                 <div class="column">
                     <h3>Hi there!</h3>
-                    <p>Let´s make the web a better place together</p>
+                    <p>Let´s make the web a better place together! </p>
+                    <hr/>
+                    <p>I'm Jacinto Melero and I'm a full stack developer
+                        from <a href="#">Valladolid, Spain</a> <br/>
+                        I've been working 9 years for a regional administration developing JEE apps from scratch, from B.I. solutions to custom tailored web apps.
+                        My main passion it's to build software that I could be proud of.
+                    </p>
                 </div>
             </div>
             <div class="section" id="section2">
@@ -49,8 +56,9 @@
             <div class="section" id="section3">
 
                 <div class="column">
-                    <h3>You can take a look
-                        at some of my works: (Click on each one to a brief description)</h3>
+                    <h3>Works</h3>
+                    <p>Take a look
+                        at some of my works: (Click on each one to a brief description)</p>
 
                 </div>
                 <div>
@@ -90,7 +98,7 @@
                     navigation: true,
                     anchors: ['hithere', 'aboutme', 'projects','skills','contact'],
                     //sectionsColor: ['#fff','#fff','#fff','#b6ea3f','#5ccdc1', '#f89043', '#299a8e', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab'],
-                    sectionsColor: ['#b6ea3f', '#5ccdc1', '#f89043', '#299a8e', '#5ccdc1', '#f89043', '#299a8e', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab'],
+                    //sectionsColor: ['#b6ea3f', '#5ccdc1', '#f89043', '#299a8e', '#5ccdc1', '#f89043', '#299a8e', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab'],
                     easingcss3: 'cubic-bezier(1.000, -0.440, 0.265, 1.385)',
                 },
             }
